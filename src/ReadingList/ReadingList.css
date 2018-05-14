@@ -1,0 +1,45 @@
+.BookRow {
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.BookSection {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReadingList {
+  display: flex;
+  flex-direction: column;
+}
+
+.Reading-actions {
+  display: flex;
+  flex-diection: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Reading-recommendation a {
+  color: #9A01C9;
+}
+.Reading-actions li {
+  padding: 0 10px 0 10px;
+  border-right: 1px solid;
+}
+
+.Reading-actions li:last-child {
+  border-right: none;
+}
+
+.Reading-actions a.is-active {
+  color: purple;
+}
+
+.Reading-recommendation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
