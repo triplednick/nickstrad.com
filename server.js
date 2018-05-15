@@ -14,7 +14,6 @@ app.use(express.static('build'))
 
 //Set up express route
 app.get("/", (req, res) => {
-  console.log("here");
   res.sendFile(path.resolve(__dirname, "public", "index.html"));
 });
 
